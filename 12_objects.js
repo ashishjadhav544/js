@@ -95,3 +95,38 @@ console.log(Object.values(youtubeuser));
 console.log(Object.entries(youtubeuser));
 
 console.log(youtubeuser.hasOwnProperty('isLoggedIn'));
+
+
+
+//part3
+//object desctucture
+const course={
+  coursename : "js",
+  price : 499,
+  courseinstructor : "ashish"
+}
+
+console.log(course.courseinstructor)
+
+
+const {courseinstructor} = course
+
+console.log(courseinstructor);
+
+
+const {courseinstructor : instructor} = course
+
+console.log(instructor);
+
+
+
+
+//json we can wright simialr like object but no object name and both are values
+//below is the json format
+
+// {
+//   "name": "ashish",
+//   "age: 22,
+//   "email": "ashu@gmail.com"
+// }
+ 
