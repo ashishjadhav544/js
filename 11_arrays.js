@@ -48,6 +48,10 @@ console.log(newArr1.splice(1,4));//splice = change 🔧 (original array is modif
 
 
 
+//part2 
+
+
+
 const marvel_heros = ["captain", "iron-man", "thor"]
 const dc_heros = ["flash","superman","batman"]
 
@@ -79,3 +83,4 @@ let score3 = 300;
 
 const new_score = Array.of(score1,score2,score3);//of - Creates an array from the values you pass.
 console.log(new_score);
+
