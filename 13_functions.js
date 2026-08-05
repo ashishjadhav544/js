@@ -57,3 +57,68 @@
 
 
 
+
+//part 2
+
+// //rest operator
+// function calculator(...num1){
+//   return num1;
+// }
+// console.log(calculator(1,200,500,56,6776));
+
+
+// function calculator1(val1, val2, ...num1){
+//   return num1;
+// }
+// console.log(calculator1(1,2,3,4,5));
+
+
+//function with objects
+//1
+// const user ={
+//   name : "ashish",
+//   age : 22
+// }
+
+
+// function username3(anyuser){
+//   console.log(`my  name is ${anyuser.name} and my age is ${anyuser.age}`);
+// }
+// username3(user);
+
+// function username4(anyuser){
+//   console.log(`my name is ${anyuser.name} and my email is ${anyuser.email}`);
+// }
+
+// username4({
+//   name : "ashish",
+//   email : "ashish@gmial.com"
+// })
+
+
+
+
+//function with arrays
+// const array = [100,200,300,400]
+
+// function array1(arr){
+//   console.log(`my array is ${arr}`);
+// }
+// array1(array);
+
+
+//without console.log while using return
+
+// const array = [100,200,300,400]
+
+// function array1(arr){
+//   return arr[3];
+// }
+// console.log(array1(array));
+
+
+
+// function array1(arr){
+//   return arr[2];
+// }
+// console.log(array1([100,200,300]));
