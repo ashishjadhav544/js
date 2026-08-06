@@ -77,3 +77,44 @@
 
 
 
+
+
+
+
+//while loop
+
+// let i = 0;
+// while(i<=10){
+//   console.log(i);
+//   i++;
+// }
+
+
+// let i = 0;
+// while(i<=10){
+//   console.log(`my number is ${i}`);
+//   // i= i + 1;
+//   i = i + 2;
+// }
+
+// let array = ["hello", "captain", "america"]
+
+// let i=0;
+// while(i<array.length){
+//   const element = array[i];
+//   console.log(element);
+//   i++;
+// }
+
+
+// let i = 0 ;
+// do{
+//   console.log(`my number is ${i}`);
+//   i++;
+// }while(i<=10)
+
+// let score= 0 ;
+// do{
+//   console.log(`my number is ${score}`);
+//   score++;
+// }while(score<=10)
