@@ -22,6 +22,8 @@
 // console.log(a.changeusername());
 
 
+
+
 //another way to wright this :- behind the scene
 
 
@@ -42,6 +44,12 @@ const b = new User("ashish","a@gmail.com",87)
 
 console.log(b.encryptPassword());
 console.log(b.changeUserName());
+
+
+
+
+
+
 
 
 
